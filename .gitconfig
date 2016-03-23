@@ -74,9 +74,13 @@
 [push]
 	default = current
 
+[user]
+	name = Eliazer Braun
+	email = adardesign@gmail.com
+
 # use separate file for username / github token / etc
-[include]
-  path = ~/.gitconfig.local
+#[include]
+#  path = ~/.gitconfig.local
 
 [init]
 	templatedir = ~/.git_template

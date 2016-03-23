@@ -1,3 +1,4 @@
+# ln -sv "~/.dotfiles/dotfiles/.bash_profile" ~
 
 # Load our dotfiles like ~/.bash_prompt, etc…
 #   ~/.extra can be used for settings you don’t want to commit,
@@ -8,9 +9,9 @@ done
 unset file
 
 # to help sublimelinter etc with finding my PATHS
-case $- in
-   *i*) source ~/.extra
-esac
+# case $- in
+#   *i*) source ~/.extra
+# esac
 
 
 # generic colouriser
@@ -66,7 +67,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # z beats cd most of the time.
 #   github.com/rupa/z
-source ~/code/z/z.sh
+source ~/.dotfiles/z/z.sh
 
 
 
@@ -123,7 +124,7 @@ shopt -s cdspell;
 
 
 # The next line updates PATH for the Google Cloud SDK.
-source '/Users/paulirish/google-cloud-sdk/path.bash.inc'
+# source '/Users/paulirish/google-cloud-sdk/path.bash.inc'
 
 # The next line enables shell command completion for gcloud.
-source '/Users/paulirish/google-cloud-sdk/completion.bash.inc'
+# source '/Users/paulirish/google-cloud-sdk/completion.bash.inc'
