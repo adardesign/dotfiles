@@ -1,3 +1,8 @@
+# After dealing with the zsh and terminal issues, the easiesyt is to have oh-my-zsh installed..
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+ 
+
+
 # copy paste this file in bit by bit.
 # don't run it.
   echo "do not run this script in one go. hit ctrl-c NOW"
