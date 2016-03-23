@@ -1,6 +1,6 @@
 # After dealing with the zsh and terminal issues, the easiesyt is to have oh-my-zsh installed..
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
- 
+# Test commit message 
 
 
 # copy paste this file in bit by bit.
